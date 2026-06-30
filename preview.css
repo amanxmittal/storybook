@@ -1,0 +1,15 @@
+.sbdocs.sbdocs-wrapper,
+.sbdocs.sbdocs-content {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin:10px !important;
+}
+
+.sbdocs-content > div {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.docs-story {
+  width: 100% !important;
+}
