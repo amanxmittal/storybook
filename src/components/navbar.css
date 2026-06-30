@@ -1,0 +1,94 @@
+/* =========================================
+   UX4G NAVBAR PATTERN
+========================================= */
+
+.ux4g-navbar {
+    background: var(--ux4g-bg-neutral-elevated);
+    box-shadow: var(--ux4g-shadow-l2);
+    width: 100%;
+}
+
+.ux4g-navbar-wrap {
+    display: flex;
+    padding: var(--ux4g-padding-m) 0;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.ux4g-navbar-logo {
+    height: 40px;
+    width: auto;
+}
+
+.ux4g-navbar-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ===== REMOVE ALL BULLETS / DOTS ===== */
+
+.ux4g-navbar-links {
+    display: flex;
+    align-items: center;
+    column-gap: var(--ux4g-inline-xl);
+
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.ux4g-navbar-links > li {
+    display: flex;
+    align-items: center;
+
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.ux4g-navbar-links > li::marker {
+    content: none !important;
+}
+
+.ux4g-navbar-links > li::before,
+.ux4g-navbar-links > li::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* ===================================== */
+
+.ux4g-navbar-links .ux4g-dropdown-control:hover {
+    text-decoration: none !important;
+}
+
+.ux4g-navbar-links .ux4g-dropdown-control:hover > span:first-child {
+    text-decoration: underline;
+}
+
+/* ===================================== */
+/* Mobile Responsiveness                 */
+/* ===================================== */
+
+.ux4g-navbar-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .ux4g-navbar-desktop {
+        display: none !important;
+    }
+    .ux4g-navbar-mobile {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+    .ux4g-navbar-mobile .ux4g-dropdown-menu {
+        right: 0;
+        left: auto;
+    }
+    .ux4g-navbar.ux4g-radius-full {
+        border-radius: 0 !important;
+    }
+}

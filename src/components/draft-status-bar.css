@@ -1,0 +1,39 @@
+/* =========================================
+   DRAFT STATUS BAR PATTERN
+   ========================================= */
+
+.ux4g-draft-status-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: var(--ux4g-padding-xl);
+    padding-block: var(--ux4g-padding-m);
+    border-radius: var(--ux4g-radius-md);
+}
+
+.ux4g-auto-draft-status-bar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-inline: var(--ux4g-padding-xl);
+    padding-block: var(--ux4g-padding-m);
+    border-radius: var(--ux4g-radius-md);
+}
+
+.ux4g-success-draft-status-bar {
+    display: flex;
+    align-items: center;
+    padding-inline: var(--ux4g-padding-xl);
+    padding-block: var(--ux4g-padding-m);
+    border-radius: var(--ux4g-radius-md);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .ux4g-draft-status-bar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: var(--ux4g-stack-m);
+        padding-inline: var(--ux4g-padding-m);
+    }
+}

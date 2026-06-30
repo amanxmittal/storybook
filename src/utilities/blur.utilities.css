@@ -1,0 +1,5 @@
+.ux4g-blur-0 { filter: blur(var(--ux4g-blur-none)); }
+.ux4g-blur-1 { filter: blur(var(--ux4g-blur-subtle)); }
+.ux4g-blur-2 { filter: blur(var(--ux4g-blur-soft)); }
+.ux4g-blur-3 { filter: blur(var(--ux4g-blur-medium)); }
+.ux4g-blur-4 { filter: blur(var(--ux4g-blur-strong)); }

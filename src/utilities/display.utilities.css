@@ -1,0 +1,18 @@
+/* =========================================
+   DISPLAY UTILITIES
+   Author: UX4G
+   Based on Bootstrap's display utilities.
+========================================= */
+
+.ux4g-d-none { display: none !important; }
+.ux4g-d-inline { display: inline !important; }
+.ux4g-d-inline-block { display: inline-block !important; }
+.ux4g-d-block { display: block !important; }
+
+.ux4g-d-table { display: table !important; }
+.ux4g-d-table-row { display: table-row !important; }
+.ux4g-d-table-cell { display: table-cell !important; }
+.ux4g-d-flex { display: flex !important; }
+.ux4g-d-inline-flex { display: inline-flex !important; }
+.ux4g-d-contents { display: contents !important; }
+.ux4g-d-list-item { display: list-item !important; }

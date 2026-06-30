@@ -1,0 +1,8 @@
+
+/* Vertical Align Utilities */
+.ux4g-va-baseline { vertical-align: var(--ux4g-va-baseline); }
+.ux4g-va-top { vertical-align: var(--ux4g-va-top); }
+.ux4g-va-middle { vertical-align: var(--ux4g-va-middle); }
+.ux4g-va-bottom { vertical-align: var(--ux4g-va-bottom); }
+.ux4g-va-text-top { vertical-align: var(--ux4g-va-text-top); }
+.ux4g-va-text-bottom { vertical-align: var(--ux4g-va-text-bottom); }
